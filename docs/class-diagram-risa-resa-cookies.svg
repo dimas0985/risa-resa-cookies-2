@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Class Diagram - Risa Resa Cookies</title>
+  <desc id="desc">Class diagram berisi users, orders, order_items, dan products beserta relasi utamanya.</desc>
+  <defs>
+    <style>
+      .title { font: 700 24px Arial, sans-serif; fill: #78350f; }
+      .class-title { font: 700 16px Arial, sans-serif; fill: #111827; }
+      .field { font: 14px Arial, sans-serif; fill: #1f2937; }
+      .line { stroke: #374151; stroke-width: 2; fill: none; }
+      .note { font: 13px Arial, sans-serif; fill: #78350f; }
+    </style>
+    <marker id="openArrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M1,1 L9,4 L1,7" fill="none" stroke="#374151" stroke-width="1.5"/>
+    </marker>
+    <marker id="diamond" markerWidth="14" markerHeight="10" refX="13" refY="5" orient="auto">
+      <path d="M1,5 L7,1 L13,5 L7,9 Z" fill="#374151" stroke="#374151" stroke-width="1"/>
+    </marker>
+  </defs>
+
+  <text x="600" y="56" text-anchor="middle" class="title">Class Diagram - Risa Resa Cookies</text>
+
+  <g transform="translate(80 150)">
+    <rect width="260" height="230" rx="4" fill="#fff7ed" stroke="#b45309" stroke-width="2"/>
+    <rect width="260" height="38" rx="4" fill="#fed7aa" stroke="#b45309" stroke-width="2"/>
+    <text x="130" y="25" text-anchor="middle" class="class-title">users</text>
+    <line x1="0" y1="38" x2="260" y2="38" stroke="#b45309" stroke-width="2"/>
+    <text x="16" y="62" class="field">+ id: uint {PK}</text>
+    <text x="16" y="86" class="field">+ name: string</text>
+    <text x="16" y="110" class="field">+ email: string {unique}</text>
+    <text x="16" y="134" class="field">+ password: string</text>
+    <text x="16" y="158" class="field">+ role: string</text>
+    <text x="16" y="182" class="field">+ created_at: time.Time</text>
+    <text x="16" y="206" class="field">+ updated_at: time.Time</text>
+  </g>
+
+  <g transform="translate(470 130)">
+    <rect width="280" height="270" rx="4" fill="#ffffff" stroke="#92400e" stroke-width="2"/>
+    <rect width="280" height="38" rx="4" fill="#fde68a" stroke="#92400e" stroke-width="2"/>
+    <text x="140" y="25" text-anchor="middle" class="class-title">orders</text>
+    <line x1="0" y1="38" x2="280" y2="38" stroke="#92400e" stroke-width="2"/>
+    <text x="16" y="62" class="field">+ id: uint {PK}</text>
+    <text x="16" y="86" class="field">+ user_id: uint {FK}</text>
+    <text x="16" y="110" class="field">+ total_price: float64</text>
+    <text x="16" y="134" class="field">+ status: string</text>
+    <text x="16" y="158" class="field">+ stock_applied: bool</text>
+    <text x="16" y="182" class="field">+ address: string</text>
+    <text x="16" y="206" class="field">+ payment_method: string</text>
+    <text x="16" y="230" class="field">+ created_at: time.Time</text>
+    <text x="16" y="254" class="field">+ updated_at: time.Time</text>
+  </g>
+
+  <g transform="translate(860 150)">
+    <rect width="260" height="250" rx="4" fill="#fff7ed" stroke="#b45309" stroke-width="2"/>
+    <rect width="260" height="38" rx="4" fill="#fed7aa" stroke="#b45309" stroke-width="2"/>
+    <text x="130" y="25" text-anchor="middle" class="class-title">products</text>
+    <line x1="0" y1="38" x2="260" y2="38" stroke="#b45309" stroke-width="2"/>
+    <text x="16" y="62" class="field">+ id: uint {PK}</text>
+    <text x="16" y="86" class="field">+ name: string</text>
+    <text x="16" y="110" class="field">+ description: string</text>
+    <text x="16" y="134" class="field">+ price: float64</text>
+    <text x="16" y="158" class="field">+ stock: int</text>
+    <text x="16" y="182" class="field">+ image: string</text>
+    <text x="16" y="206" class="field">+ created_at: time.Time</text>
+    <text x="16" y="230" class="field">+ updated_at: time.Time</text>
+  </g>
+
+  <g transform="translate(470 510)">
+    <rect width="280" height="210" rx="4" fill="#ffffff" stroke="#92400e" stroke-width="2"/>
+    <rect width="280" height="38" rx="4" fill="#fde68a" stroke="#92400e" stroke-width="2"/>
+    <text x="140" y="25" text-anchor="middle" class="class-title">order_items</text>
+    <line x1="0" y1="38" x2="280" y2="38" stroke="#92400e" stroke-width="2"/>
+    <text x="16" y="62" class="field">+ id: uint {PK}</text>
+    <text x="16" y="86" class="field">+ order_id: uint {FK}</text>
+    <text x="16" y="110" class="field">+ product_id: uint {FK}</text>
+    <text x="16" y="134" class="field">+ quantity: int</text>
+    <text x="16" y="158" class="field">+ price: float64</text>
+    <text x="16" y="182" class="field">+ total_price: float64</text>
+  </g>
+
+  <path d="M340 265 L470 265" class="line" marker-end="url(#openArrow)"/>
+  <text x="354" y="252" class="field">1</text>
+  <text x="428" y="252" class="field">0..*</text>
+
+  <path d="M610 400 L610 510" class="line" marker-end="url(#diamond)"/>
+  <text x="622" y="424" class="field">1</text>
+  <text x="622" y="492" class="field">1..*</text>
+
+  <path d="M860 400 L750 570" class="line" marker-end="url(#openArrow)"/>
+  <text x="842" y="426" class="field">1</text>
+  <text x="755" y="548" class="field">0..*</text>
+
+  <g transform="translate(80 560)">
+    <path d="M0 0 H270 L290 20 V100 H0 Z" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+    <text x="14" y="26" class="note">Relasi:</text>
+    <text x="14" y="50" class="note">users memiliki banyak orders</text>
+    <text x="14" y="72" class="note">orders memiliki banyak order_items</text>
+    <text x="14" y="94" class="note">products digunakan oleh banyak order_items</text>
+  </g>
+</svg>

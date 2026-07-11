@@ -1,0 +1,28 @@
+<svg width="1440" height="220" viewBox="0 0 1440 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="220" fill="#7B3F1D"/>
+  <rect width="1440" height="1" fill="#633117"/>
+
+  <g>
+    <circle cx="126" cy="96" r="22" fill="#92400E"/>
+    <path d="M115 88H137V104H115V88Z" stroke="#FCD34D" stroke-width="2.2" stroke-linejoin="round"/>
+    <path d="M116 89L126 98L136 89" stroke="#FCD34D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="164" y="89" fill="#FEF3C7" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="900">Email</text>
+    <text x="164" y="121" fill="#E7E5E4" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="500">m.dimas.a1010@gmail.com</text>
+  </g>
+
+  <g>
+    <circle cx="538" cy="96" r="22" fill="#92400E"/>
+    <path d="M529 88C535 82 545 86 548 94C551 103 543 110 535 107L528 111L531 103C526 98 525 92 529 88Z" stroke="#FCD34D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="576" y="89" fill="#FEF3C7" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="900">WhatsApp</text>
+    <text x="576" y="121" fill="#E7E5E4" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="500">087869198381</text>
+  </g>
+
+  <g>
+    <circle cx="890" cy="96" r="22" fill="#92400E"/>
+    <path d="M890 109C890 109 902 98 902 90C902 84 897 79 890 79C883 79 878 84 878 90C878 98 890 109 890 109Z" stroke="#FCD34D" stroke-width="2.2" stroke-linejoin="round"/>
+    <circle cx="890" cy="90" r="3.5" fill="#FCD34D"/>
+    <text x="928" y="89" fill="#FEF3C7" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="900">Lokasi</text>
+    <text x="928" y="121" fill="#E7E5E4" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="500">Jl. Kopo RT/RW 004/05 no.29 Kelurahan Ciganjur</text>
+    <text x="928" y="149" fill="#E7E5E4" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="500">Kecamatan Jagakarsa Jakarta Selatan</text>
+  </g>
+</svg>

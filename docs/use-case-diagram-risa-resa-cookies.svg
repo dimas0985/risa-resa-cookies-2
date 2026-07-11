@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <style>
+      .title{font:700 22px Arial,sans-serif;fill:#78350f}
+      .actor-label{font:600 18px Arial,sans-serif;fill:#111827;text-anchor:middle}
+      .uc{fill:#fff;stroke:#b45309;stroke-width:2}
+      .admin-uc{fill:#fff;stroke:#2563eb;stroke-width:2}
+      .sub-uc{fill:#eff6ff;stroke:#2563eb;stroke-width:2}
+      .txt{font:600 16px Arial,sans-serif;fill:#111827;text-anchor:middle}
+      .small{font:600 13px Arial,sans-serif;fill:#4b5563;text-anchor:middle}
+      .line{stroke:#374151;stroke-width:2;fill:none}
+      .dash{stroke:#6b7280;stroke-width:2;fill:none;stroke-dasharray:7 6;marker-end:url(#openArrow)}
+      .gen{stroke:#374151;stroke-width:2;fill:none;marker-end:url(#triangleOpen)}
+    </style>
+    <marker id="openArrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10" fill="none" stroke="#6b7280" stroke-width="2"/>
+    </marker>
+    <marker id="triangleOpen" markerWidth="18" markerHeight="16" refX="16" refY="8" orient="auto">
+      <path d="M2,2 L16,8 L2,14 Z" fill="#fff" stroke="#374151" stroke-width="2"/>
+    </marker>
+  </defs>
+  <rect x="310" y="50" width="910" height="840" fill="#fff7ed" stroke="#92400e" stroke-width="3"/>
+  <text x="765" y="82" class="title">Sistem Informasi Penjualan Kue</text>
+  <text x="765" y="110" class="title">Risa Resa Cookies</text>
+
+  <g id="actor-pengunjung" transform="translate(115 190)">
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#111827" stroke-width="2"/>
+    <line x1="0" y1="18" x2="0" y2="70" class="line"/>
+    <line x1="-35" y1="38" x2="35" y2="38" class="line"/>
+    <line x1="0" y1="70" x2="-30" y2="112" class="line"/>
+    <line x1="0" y1="70" x2="30" y2="112" class="line"/>
+    <text x="0" y="145" class="actor-label">Pengunjung</text>
+  </g>
+  <g id="actor-pelanggan" transform="translate(115 520)">
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#111827" stroke-width="2"/>
+    <line x1="0" y1="18" x2="0" y2="70" class="line"/>
+    <line x1="-35" y1="38" x2="35" y2="38" class="line"/>
+    <line x1="0" y1="70" x2="-30" y2="112" class="line"/>
+    <line x1="0" y1="70" x2="30" y2="112" class="line"/>
+    <text x="0" y="145" class="actor-label">Pelanggan</text>
+  </g>
+  <g id="actor-admin" transform="translate(1425 350)">
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#111827" stroke-width="2"/>
+    <line x1="0" y1="18" x2="0" y2="70" class="line"/>
+    <line x1="-35" y1="38" x2="35" y2="38" class="line"/>
+    <line x1="0" y1="70" x2="-30" y2="112" class="line"/>
+    <line x1="0" y1="70" x2="30" y2="112" class="line"/>
+    <text x="0" y="145" class="actor-label">Admin</text>
+  </g>
+  <g id="actor-whatsapp" transform="translate(1425 660)">
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#111827" stroke-width="2"/>
+    <line x1="0" y1="18" x2="0" y2="70" class="line"/>
+    <line x1="-35" y1="38" x2="35" y2="38" class="line"/>
+    <line x1="0" y1="70" x2="-30" y2="112" class="line"/>
+    <line x1="0" y1="70" x2="30" y2="112" class="line"/>
+    <text x="0" y="145" class="actor-label">WhatsApp</text>
+  </g>
+
+  <ellipse cx="485" cy="149" rx="95" ry="29" class="uc"/><text x="485" y="155" class="txt">Melihat Beranda</text>
+  <ellipse cx="485" cy="239" rx="95" ry="29" class="uc"/><text x="485" y="245" class="txt">Melihat Katalog Produk</text>
+  <ellipse cx="735" cy="239" rx="95" ry="29" class="uc"/><text x="735" y="245" class="txt">Melihat Detail Produk</text>
+  <ellipse cx="485" cy="339" rx="95" ry="29" class="uc"/><text x="485" y="345" class="txt">Registrasi Akun</text>
+  <ellipse cx="735" cy="339" rx="95" ry="29" class="uc"/><text x="735" y="345" class="txt">Login</text>
+  <ellipse cx="485" cy="461" rx="95" ry="31" class="uc"/><text x="485" y="457" class="txt">Menambah Produk</text><text x="485" y="477" class="txt">ke Keranjang</text>
+  <ellipse cx="735" cy="461" rx="95" ry="31" class="uc"/><text x="735" y="467" class="txt">Mengelola Keranjang</text>
+  <ellipse cx="485" cy="595" rx="95" ry="35" class="uc"/><text x="485" y="591" class="txt">Checkout /</text><text x="485" y="611" class="txt">Membuat Pesanan</text>
+  <ellipse cx="735" cy="571" rx="95" ry="31" class="uc"/><text x="735" y="567" class="txt">Mengisi Informasi</text><text x="735" y="587" class="txt">Pengiriman</text>
+  <ellipse cx="735" cy="661" rx="95" ry="31" class="uc"/><text x="735" y="657" class="txt">Konfirmasi Pesanan</text><text x="735" y="677" class="txt">via WhatsApp</text>
+
+  <ellipse cx="1055" cy="159" rx="95" ry="29" class="admin-uc"/><text x="1055" y="165" class="txt">Mengakses Dashboard</text>
+  <ellipse cx="1055" cy="259" rx="95" ry="29" class="admin-uc"/><text x="1055" y="265" class="txt">Mengelola Produk</text>
+  <ellipse cx="800" cy="151" rx="90" ry="31" class="sub-uc"/><text x="800" y="147" class="txt">Tambah / Edit /</text><text x="800" y="167" class="txt">Hapus Produk</text>
+  <ellipse cx="1055" cy="369" rx="95" ry="29" class="admin-uc"/><text x="1055" y="375" class="txt">Mengelola Pesanan</text>
+  <ellipse cx="800" cy="761" rx="90" ry="31" class="sub-uc"/><text x="800" y="757" class="txt">Mengubah Status</text><text x="800" y="777" class="txt">Pesanan</text>
+  <ellipse cx="1050" cy="761" rx="90" ry="31" class="sub-uc"/><text x="1050" y="757" class="txt">Memperbarui Stok</text><text x="1050" y="777" class="txt">Otomatis</text>
+  <ellipse cx="1055" cy="479" rx="95" ry="29" class="admin-uc"/><text x="1055" y="485" class="txt">Melihat Data Pelanggan</text>
+  <ellipse cx="1055" cy="595" rx="95" ry="35" class="admin-uc"/><text x="1055" y="591" class="txt">Melihat Ringkasan</text><text x="1055" y="611" class="txt">Produk, Pesanan, Omzet</text>
+
+  <line x1="150" y1="235" x2="390" y2="149" class="line"/>
+  <line x1="150" y1="235" x2="390" y2="239" class="line"/>
+  <line x1="150" y1="235" x2="640" y2="239" class="line"/>
+  <line x1="150" y1="235" x2="390" y2="339" class="line"/>
+  <line x1="150" y1="235" x2="640" y2="339" class="line"/>
+  <line x1="150" y1="565" x2="390" y2="461" class="line"/>
+  <line x1="150" y1="565" x2="640" y2="461" class="line"/>
+  <line x1="150" y1="565" x2="390" y2="595" class="line"/>
+  <line x1="1390" y1="405" x2="1150" y2="159" class="line"/>
+  <line x1="1390" y1="405" x2="1150" y2="259" class="line"/>
+  <line x1="1390" y1="405" x2="1150" y2="369" class="line"/>
+  <line x1="1390" y1="405" x2="1150" y2="479" class="line"/>
+  <line x1="1390" y1="405" x2="1150" y2="595" class="line"/>
+  <line x1="1390" y1="715" x2="830" y2="661" class="line"/>
+
+  <line x1="580" y1="595" x2="665" y2="368" class="dash"/><text x="645" y="490" class="small">&lt;&lt;include&gt;&gt;</text>
+  <line x1="580" y1="595" x2="640" y2="571" class="dash"/><text x="617" y="573" class="small">&lt;&lt;include&gt;&gt;</text>
+  <line x1="580" y1="595" x2="640" y2="661" class="dash"/><text x="620" y="643" class="small">&lt;&lt;include&gt;&gt;</text>
+  <line x1="960" y1="259" x2="890" y2="151" class="dash"/><text x="932" y="198" class="small">&lt;&lt;include&gt;&gt;</text>
+  <line x1="960" y1="369" x2="800" y2="730" class="dash"/><text x="890" y="555" class="small">&lt;&lt;include&gt;&gt;</text>
+  <line x1="890" y1="761" x2="960" y2="761" class="dash"/><text x="925" y="748" class="small">&lt;&lt;include&gt;&gt;</text>
+  <line x1="115" y1="520" x2="115" y2="302" class="gen"/>
+</svg>

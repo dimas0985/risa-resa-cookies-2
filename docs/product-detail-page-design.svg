@@ -1,0 +1,68 @@
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="1024" fill="#F9FAFB"/>
+
+  <rect x="0" y="0" width="1440" height="86" fill="#FFFFFF"/>
+  <rect x="0" y="85" width="1440" height="1" fill="#E5E7EB"/>
+  <text x="96" y="53" fill="#D97706" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">Risa Resa Cookies</text>
+  <text x="852" y="52" fill="#4B5563" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Katalog</text>
+  <circle cx="962" cy="44" r="20" fill="#FFF7ED" stroke="#FED7AA" stroke-width="2"/>
+  <path d="M952 38H956L959 50H969L972 42H958" stroke="#92400E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="961" cy="55" r="1.8" fill="#92400E"/>
+  <circle cx="969" cy="55" r="1.8" fill="#92400E"/>
+  <rect x="1028" y="24" width="116" height="42" rx="8" fill="#D97706"/>
+  <text x="1067" y="51" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">Login</text>
+
+  <rect x="80" y="126" width="1280" height="800" rx="24" fill="#FFF7ED" stroke="#FED7AA"/>
+
+  <g>
+    <path d="M132 178H116M116 178L128 166M116 178L128 190" stroke="#6B7280" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="148" y="184" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Kembali</text>
+  </g>
+
+  <rect x="132" y="226" width="1176" height="598" rx="22" fill="#FFFFFF" stroke="#E5E7EB"/>
+
+  <rect x="180" y="274" width="510" height="500" rx="18" fill="#FEF3C7"/>
+  <rect x="206" y="300" width="458" height="448" rx="16" fill="#FFFBEB"/>
+  <ellipse cx="435" cy="535" rx="176" ry="74" fill="#F59E0B" opacity="0.18"/>
+  <circle cx="430" cy="500" r="142" fill="#B45309"/>
+  <circle cx="430" cy="500" r="116" fill="#FBBF24"/>
+  <circle cx="386" cy="454" r="12" fill="#78350F"/>
+  <circle cx="475" cy="480" r="12" fill="#78350F"/>
+  <circle cx="414" cy="536" r="12" fill="#78350F"/>
+  <circle cx="489" cy="553" r="10" fill="#78350F"/>
+  <circle cx="372" cy="567" r="10" fill="#78350F"/>
+  <path d="M344 420C374 378 454 358 516 402" stroke="#FFF7ED" stroke-width="9" stroke-linecap="round" opacity="0.55"/>
+  <text x="318" y="716" fill="#92400E" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">Foto Produk</text>
+
+  <text x="752" y="326" fill="#D97706" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="1.4">DETAIL PRODUK</text>
+  <text x="752" y="390" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="900">Nastar Keju Special</text>
+  <text x="752" y="444" fill="#D97706" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="900">Rp 95.000</text>
+  <text x="752" y="502" fill="#4B5563" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="500">Kue nastar premium dengan isian selai nanas,</text>
+  <text x="752" y="532" fill="#4B5563" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="500">taburan keju, dan aroma butter yang lembut.</text>
+  <text x="752" y="562" fill="#4B5563" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="500">Cocok untuk hampers, suguhan keluarga, dan</text>
+  <text x="752" y="592" fill="#4B5563" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="500">momen spesial.</text>
+
+  <rect x="752" y="634" width="120" height="42" rx="21" fill="#ECFDF5" stroke="#BBF7D0"/>
+  <circle cx="777" cy="655" r="7" fill="#16A34A"/>
+  <text x="794" y="662" fill="#166534" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800">Stok: 12</text>
+
+  <text x="752" y="725" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">Jumlah</text>
+  <rect x="834" y="696" width="190" height="58" rx="10" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="2"/>
+  <rect x="834" y="696" width="56" height="58" rx="10" fill="#F9FAFB"/>
+  <text x="856" y="733" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900">-</text>
+  <text x="916" y="733" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="900">1</text>
+  <rect x="968" y="696" width="56" height="58" rx="10" fill="#F9FAFB"/>
+  <text x="989" y="733" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900">+</text>
+
+  <rect x="752" y="784" width="404" height="58" rx="12" fill="#D97706"/>
+  <path d="M885 806H892L897 825H916L922 812H899" stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="901" cy="833" r="2.5" fill="#FFFFFF"/>
+  <circle cx="915" cy="833" r="2.5" fill="#FFFFFF"/>
+  <text x="938" y="821" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="900">Tambah ke Keranjang</text>
+
+  <rect x="132" y="858" width="1176" height="1" fill="#FED7AA"/>
+  <text x="132" y="892" fill="#92400E" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800">Catatan rancangan:</text>
+  <text x="278" y="892" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="500">Setelah produk ditambahkan, sistem mengarahkan pengguna ke halaman Keranjang.</text>
+
+  <text x="80" y="978" fill="#9CA3AF" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="600">Rancangan Tampilan Halaman Product Detail - Risa Resa Cookies</text>
+</svg>

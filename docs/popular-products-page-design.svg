@@ -1,0 +1,112 @@
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="1024" fill="#F9FAFB"/>
+
+  <rect x="0" y="0" width="1440" height="86" fill="#FFFFFF"/>
+  <rect x="0" y="85" width="1440" height="1" fill="#E5E7EB"/>
+  <text x="96" y="53" fill="#D97706" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">Risa Resa Cookies</text>
+  <text x="852" y="52" fill="#4B5563" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Katalog</text>
+  <circle cx="962" cy="44" r="20" fill="#FFF7ED" stroke="#FED7AA" stroke-width="2"/>
+  <path d="M952 38H956L959 50H969L972 42H958" stroke="#92400E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="961" cy="55" r="1.8" fill="#92400E"/>
+  <circle cx="969" cy="55" r="1.8" fill="#92400E"/>
+  <rect x="1028" y="24" width="116" height="42" rx="8" fill="#D97706"/>
+  <text x="1067" y="51" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">Login</text>
+
+  <rect x="80" y="126" width="1280" height="226" rx="24" fill="#FFF7ED" stroke="#FED7AA"/>
+  <text x="118" y="184" fill="#D97706" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="1.5">RISA RESA COOKIES</text>
+  <text x="118" y="246" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="900">Produk Populer</text>
+  <text x="118" y="286" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="500">Pilihan kue favorit pelanggan yang paling sering dipesan untuk hampers, suguhan keluarga, dan momen spesial.</text>
+  <rect x="1094" y="218" width="166" height="48" rx="24" fill="#D97706"/>
+  <text x="1132" y="248" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="900">Lihat Semua</text>
+
+  <g opacity="0.9">
+    <circle cx="1212" cy="174" r="42" fill="#FDE68A"/>
+    <circle cx="1212" cy="174" r="32" fill="#B45309"/>
+    <circle cx="1212" cy="174" r="24" fill="#FBBF24"/>
+    <circle cx="1202" cy="164" r="3.2" fill="#78350F"/>
+    <circle cx="1223" cy="177" r="3.2" fill="#78350F"/>
+    <circle cx="1210" cy="189" r="3.2" fill="#78350F"/>
+  </g>
+
+  <g>
+    <rect x="80" y="410" width="290" height="360" rx="14" fill="#FFFFFF" stroke="#F3F4F6"/>
+    <rect x="80" y="410" width="290" height="178" rx="14" fill="#FFF7ED"/>
+    <circle cx="225" cy="499" r="62" fill="#F59E0B"/>
+    <circle cx="225" cy="499" r="49" fill="#FDE68A"/>
+    <circle cx="202" cy="478" r="6" fill="#78350F"/>
+    <circle cx="250" cy="502" r="6" fill="#78350F"/>
+    <circle cx="220" cy="532" r="6" fill="#78350F"/>
+    <rect x="104" y="608" width="92" height="30" rx="15" fill="#FEF3C7"/>
+    <text x="124" y="628" fill="#B45309" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="900">Terlaris</text>
+    <text x="104" y="674" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="900">Nastar Keju Special</text>
+    <text x="104" y="710" fill="#D97706" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="900">Rp 95.000</text>
+    <rect x="104" y="730" width="78" height="36" rx="7" fill="#F3F4F6"/>
+    <text x="122" y="754" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800">Detail</text>
+    <rect x="190" y="730" width="52" height="36" rx="7" fill="#FEF3C7"/>
+    <text x="209" y="755" fill="#B45309" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="900">+</text>
+    <rect x="250" y="730" width="52" height="36" rx="7" fill="#DCFCE7"/>
+    <text x="267" y="754" fill="#15803D" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="900">WA</text>
+  </g>
+
+  <g>
+    <rect x="400" y="410" width="290" height="360" rx="14" fill="#FFFFFF" stroke="#F3F4F6"/>
+    <rect x="400" y="410" width="290" height="178" rx="14" fill="#FFFBEB"/>
+    <circle cx="545" cy="499" r="62" fill="#92400E"/>
+    <circle cx="545" cy="499" r="48" fill="#FBBF24"/>
+    <rect x="424" y="608" width="116" height="30" rx="15" fill="#FEF3C7"/>
+    <text x="444" y="628" fill="#B45309" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="900">Favorit</text>
+    <text x="424" y="674" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="900">Kastengel</text>
+    <text x="424" y="700" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="900">Rombutter</text>
+    <text x="424" y="734" fill="#D97706" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="900">Rp 90.000</text>
+    <rect x="424" y="752" width="78" height="36" rx="7" fill="#F3F4F6"/>
+    <text x="442" y="776" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800">Detail</text>
+    <rect x="510" y="752" width="52" height="36" rx="7" fill="#FEF3C7"/>
+    <text x="529" y="777" fill="#B45309" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="900">+</text>
+    <rect x="570" y="752" width="52" height="36" rx="7" fill="#DCFCE7"/>
+    <text x="587" y="776" fill="#15803D" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="900">WA</text>
+  </g>
+
+  <g>
+    <rect x="720" y="410" width="290" height="360" rx="14" fill="#FFFFFF" stroke="#F3F4F6"/>
+    <rect x="720" y="410" width="290" height="178" rx="14" fill="#FFF7ED"/>
+    <circle cx="865" cy="499" r="62" fill="#B45309"/>
+    <circle cx="865" cy="499" r="48" fill="#FDE68A"/>
+    <rect x="744" y="608" width="116" height="30" rx="15" fill="#FEF3C7"/>
+    <text x="764" y="628" fill="#B45309" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="900">Best Seller</text>
+    <text x="744" y="674" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="900">Lidah Kucing</text>
+    <text x="744" y="700" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="900">Rombutter</text>
+    <text x="744" y="734" fill="#D97706" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="900">Rp 88.000</text>
+    <rect x="744" y="752" width="78" height="36" rx="7" fill="#F3F4F6"/>
+    <text x="762" y="776" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800">Detail</text>
+    <rect x="830" y="752" width="52" height="36" rx="7" fill="#FEF3C7"/>
+    <text x="849" y="777" fill="#B45309" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="900">+</text>
+    <rect x="890" y="752" width="52" height="36" rx="7" fill="#DCFCE7"/>
+    <text x="907" y="776" fill="#15803D" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="900">WA</text>
+  </g>
+
+  <g>
+    <rect x="1040" y="410" width="320" height="360" rx="14" fill="#FFFFFF" stroke="#F3F4F6"/>
+    <rect x="1040" y="410" width="320" height="178" rx="14" fill="#FFFBEB"/>
+    <circle cx="1200" cy="499" r="62" fill="#78350F"/>
+    <circle cx="1200" cy="499" r="48" fill="#FBBF24"/>
+    <rect x="1064" y="608" width="130" height="30" rx="15" fill="#FEF3C7"/>
+    <text x="1084" y="628" fill="#B45309" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="900">Rekomendasi</text>
+    <text x="1064" y="674" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="900">Almond Cookies</text>
+    <text x="1064" y="700" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="900">Rombutter</text>
+    <text x="1064" y="734" fill="#D97706" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="900">Rp 92.000</text>
+    <rect x="1064" y="752" width="78" height="36" rx="7" fill="#F3F4F6"/>
+    <text x="1082" y="776" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800">Detail</text>
+    <rect x="1150" y="752" width="52" height="36" rx="7" fill="#FEF3C7"/>
+    <text x="1169" y="777" fill="#B45309" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="900">+</text>
+    <rect x="1210" y="752" width="52" height="36" rx="7" fill="#DCFCE7"/>
+    <text x="1227" y="776" fill="#15803D" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="900">WA</text>
+  </g>
+
+  <rect x="80" y="836" width="1280" height="90" rx="16" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="118" y="876" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="900">Aksi Pengguna</text>
+  <text x="118" y="906" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="500">Pengguna dapat melihat detail produk, menambahkan produk ke keranjang, atau langsung melakukan pemesanan melalui WhatsApp.</text>
+  <rect x="1114" y="858" width="170" height="46" rx="23" fill="#16A34A"/>
+  <text x="1151" y="887" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="900">Pesan via WA</text>
+
+  <text x="80" y="978" fill="#9CA3AF" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="600">Rancangan Halaman Product Populer - Risa Resa Cookies</text>
+</svg>

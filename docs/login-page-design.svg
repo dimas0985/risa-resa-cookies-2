@@ -1,0 +1,71 @@
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="1024" fill="#F9FAFB"/>
+
+  <rect x="0" y="0" width="1440" height="86" fill="#FFFFFF"/>
+  <rect x="0" y="85" width="1440" height="1" fill="#E5E7EB"/>
+  <text x="96" y="53" fill="#D97706" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">Risa Resa Cookies</text>
+  <text x="908" y="52" fill="#4B5563" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600">Katalog</text>
+  <circle cx="1018" cy="44" r="20" fill="#FFF7ED" stroke="#FED7AA" stroke-width="2"/>
+  <path d="M1008 38H1012L1015 50H1025L1028 42H1014" stroke="#92400E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="1017" cy="55" r="1.8" fill="#92400E"/>
+  <circle cx="1025" cy="55" r="1.8" fill="#92400E"/>
+  <rect x="1082" y="24" width="116" height="42" rx="8" fill="#D97706"/>
+  <text x="1121" y="51" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">Login</text>
+
+  <rect x="80" y="126" width="1280" height="810" rx="24" fill="#FFF7ED"/>
+  <rect x="80" y="126" width="1280" height="810" rx="24" stroke="#FED7AA"/>
+
+  <g opacity="0.92">
+    <circle cx="246" cy="768" r="70" fill="#FDE68A"/>
+    <circle cx="246" cy="768" r="54" fill="#92400E"/>
+    <circle cx="246" cy="768" r="43" fill="#FBBF24"/>
+    <circle cx="224" cy="750" r="5" fill="#78350F"/>
+    <circle cx="270" cy="768" r="5" fill="#78350F"/>
+    <circle cx="242" cy="798" r="5" fill="#78350F"/>
+
+    <circle cx="1190" cy="246" r="66" fill="#FDE68A"/>
+    <circle cx="1190" cy="246" r="52" fill="#B45309"/>
+    <circle cx="1190" cy="246" r="40" fill="#FBBF24"/>
+    <circle cx="1174" cy="230" r="4.5" fill="#78350F"/>
+    <circle cx="1210" cy="248" r="4.5" fill="#78350F"/>
+    <circle cx="1188" cy="270" r="4.5" fill="#78350F"/>
+  </g>
+
+  <rect x="198" y="306" width="420" height="410" rx="20" fill="#FFFFFF" stroke="#FDE68A"/>
+  <text x="246" y="372" fill="#78350F" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="900">Masuk Akun</text>
+  <text x="246" y="422" fill="#92400E" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800">Risa Resa Cookies</text>
+  <text x="246" y="464" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="500">Login untuk melanjutkan belanja,</text>
+  <text x="246" y="492" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="500">mengakses keranjang, dan melakukan</text>
+  <text x="246" y="520" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="500">checkout pesanan.</text>
+
+  <rect x="246" y="568" width="284" height="54" rx="12" fill="#FEF3C7"/>
+  <circle cx="274" cy="595" r="11" fill="#D97706"/>
+  <text x="298" y="602" fill="#92400E" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800">Masuk sebagai customer</text>
+  <rect x="246" y="638" width="284" height="54" rx="12" fill="#EFF6FF"/>
+  <circle cx="274" cy="665" r="11" fill="#2563EB"/>
+  <text x="298" y="672" fill="#1E3A8A" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800">Admin menuju dashboard</text>
+
+  <rect x="700" y="226" width="500" height="572" rx="18" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="861" y="299" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="900">Login</text>
+  <text x="794" y="338" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="500">Masukkan email atau nama akun Anda</text>
+  <rect x="760" y="370" width="380" height="1" fill="#F3F4F6"/>
+
+  <text x="760" y="438" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">Email atau Nama</text>
+  <rect x="760" y="456" width="380" height="54" rx="8" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.5"/>
+  <text x="782" y="490" fill="#9CA3AF" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="500">Masukkan email atau nama</text>
+
+  <text x="760" y="552" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">Password</text>
+  <rect x="760" y="570" width="380" height="54" rx="8" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.5"/>
+  <text x="782" y="604" fill="#9CA3AF" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="500">Masukkan password</text>
+  <circle cx="1112" cy="597" r="11" fill="#F3F4F6" stroke="#D1D5DB"/>
+  <path d="M1104 597C1107 592 1117 592 1120 597C1117 602 1107 602 1104 597Z" stroke="#6B7280" stroke-width="1.5" fill="none"/>
+  <circle cx="1112" cy="597" r="2.5" fill="#6B7280"/>
+
+  <rect x="760" y="668" width="380" height="54" rx="8" fill="#D97706"/>
+  <text x="925" y="702" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">Login</text>
+
+  <text x="823" y="765" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="500">Belum punya akun?</text>
+  <text x="974" y="765" fill="#D97706" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="900">Daftar sekarang</text>
+
+  <text x="80" y="978" fill="#9CA3AF" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="600">Rancangan Tampilan Halaman Login - Risa Resa Cookies</text>
+</svg>
