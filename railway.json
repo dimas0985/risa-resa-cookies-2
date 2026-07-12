@@ -2,5 +2,8 @@
   "$schema": "https://railway.app/railway.schema.json",
   "build": {
     "rootDirectory": "backend"
+  },
+  "deploy": {
+    "rootDirectory": "backend"
   }
 }
