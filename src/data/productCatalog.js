@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:8080';
+const API_URL = 'https://risa-resa-cookies-2-backend-production.up.railway.app';
 
 const productImages = {
   almondCookiesRombutter: 'Almond-Cookies-Rombutter.jpg',
