@@ -1,5 +1,4 @@
-const API_URL = 'https://risa-resa-cookies-2-backend-production.up.railway.app';
-
+const API_URL = import.meta.env.VITE_API_URL || "https://risa-resa-cookies-2-backend-production.up.railway.app";
 const productImages = {
   almondCookiesRombutter: 'Almond-Cookies-Rombutter.jpg',
   chocoChipRombutter: 'Choco-Chip-Rombutter.jpg',
