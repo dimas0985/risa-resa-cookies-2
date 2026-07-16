@@ -3,8 +3,6 @@ import { useNavigate, Link } from 'react-router-dom';
 import api from '../services/api';
 
 const Register = () => {
-  console.log("REGISTER VERSION BARU");
-
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -16,35 +14,19 @@ const Register = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    console.log("SUBMIT REGISTER");
-
-    console.log({
-      name,
-      email,
-      password
-    });
-
     setLoading(true);
     setError('');
 
     try {
-      console.log("SENDING REQUEST");
-
-      const res = await api.post('/register', {
+      await api.post('/register', {
         name,
         email,
         password
       });
 
-      console.log("REGISTER SUCCESS:", res.data);
-
       navigate('/login');
 
     } catch (error) {
-
-      console.log("REGISTER ERROR:", error);
-      console.log("ERROR RESPONSE:", error.response);
-
       if (
         error.response &&
         error.response.data &&
@@ -59,7 +41,6 @@ const Register = () => {
       }
 
     } finally {
-      console.log("REGISTER FINISHED");
       setLoading(false);
     }
   };
