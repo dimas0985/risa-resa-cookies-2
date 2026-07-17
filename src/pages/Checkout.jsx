@@ -54,9 +54,8 @@ const Checkout = () => {
       });
 
       localStorage.removeItem('cart');
-      window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
-      alert('Pesanan berhasil dibuat! Silakan lanjutkan konfirmasi pembayaran di WhatsApp.');
-      navigate('/');
+      alert('Pesanan berhasil dibuat! Anda akan diarahkan ke WhatsApp.');
+      window.location.assign(whatsappUrl);
     } catch (err) {
       alert('Gagal membuat pesanan. Silakan coba lagi.');
     }
@@ -64,8 +63,8 @@ const Checkout = () => {
 
   if (cartItems.length === 0) {
     return (
-      <div className="text-center py-12">
-        <h2 className="text-3xl font-bold mb-4">Keranjang Anda Kosong</h2>
+      <div className="py-12 text-center">
+        <h2 className="mb-4 text-3xl font-bold">Keranjang Anda Kosong</h2>
         <p className="text-gray-600">Silakan tambahkan produk ke keranjang terlebih dahulu.</p>
       </div>
     );
@@ -73,17 +72,17 @@ const Checkout = () => {
 
   return (
     <div className="max-w-4xl mx-auto">
-      <h2 className="text-3xl font-bold mb-8 text-center">Checkout</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-        <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
-          <h3 className="text-xl font-bold mb-6">Informasi Pengiriman</h3>
+      <h2 className="mb-8 text-3xl font-bold text-center">Checkout</h2>
+      <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
+        <div className="p-8 bg-white border border-gray-100 shadow-sm rounded-xl">
+          <h3 className="mb-6 text-xl font-bold">Informasi Pengiriman</h3>
           <form onSubmit={handleSubmit}>
             <div className="mb-4">
-              <label className="block text-gray-700 mb-2 font-semibold">Nama Penerima</label>
+              <label className="block mb-2 font-semibold text-gray-700">Nama Penerima</label>
               <input type="text" className="w-full px-4 py-2 border rounded-md bg-gray-50" value={user?.name} disabled />
             </div>
             <div className="mb-4">
-              <label className="block text-gray-700 mb-2 font-semibold">Alamat Lengkap</label>
+              <label className="block mb-2 font-semibold text-gray-700">Alamat Lengkap</label>
               <textarea 
                 className="w-full px-4 py-2 border rounded-md focus:ring-amber-500 focus:border-amber-500" 
                 rows="4"
@@ -94,30 +93,30 @@ const Checkout = () => {
               ></textarea>
             </div>
             <div className="mb-6">
-              <label className="block text-gray-700 mb-2 font-semibold">Metode Pembayaran</label>
+              <label className="block mb-2 font-semibold text-gray-700">Metode Pembayaran</label>
               <input
                 type="text"
-                className="w-full px-4 py-2 border rounded-md bg-gray-50 text-gray-700"
+                className="w-full px-4 py-2 text-gray-700 border rounded-md bg-gray-50"
                 value="WhatsApp"
                 disabled
               />
               <p className="mt-2 text-sm text-gray-500">Pesanan akan diarahkan ke WhatsApp 087869198381.</p>
             </div>
-            <button type="submit" className="w-full bg-amber-600 text-white py-4 rounded-md font-bold hover:bg-amber-700 transition">
+            <button type="submit" className="w-full py-4 font-bold text-white transition rounded-md bg-amber-600 hover:bg-amber-700">
               Buat Pesanan & Lanjut ke WA
             </button>
           </form>
         </div>
         
-        <div className="bg-amber-50 p-8 rounded-xl h-fit border border-amber-100">
-          <h3 className="text-xl font-bold mb-6">Ringkasan Pesanan</h3>
-          <div className="space-y-4 mb-6">
+        <div className="p-8 border bg-amber-50 rounded-xl h-fit border-amber-100">
+          <h3 className="mb-6 text-xl font-bold">Ringkasan Pesanan</h3>
+          <div className="mb-6 space-y-4">
             {cartItems.map((item) => (
-              <div key={item.id} className="flex justify-between items-center gap-4">
+              <div key={item.id} className="flex items-center justify-between gap-4">
                 <img 
                   src={resolveProductImage(item.image)} 
                   alt={item.name} 
-                  className="w-16 h-16 object-cover rounded-md border border-amber-200"
+                  className="object-cover w-16 h-16 border rounded-md border-amber-200"
                   onError={(e) => { e.target.src = 'https://via.placeholder.com/64' }}
                 />
                 <div className="flex-1">
@@ -128,8 +127,8 @@ const Checkout = () => {
               </div>
             ))}
           </div>
-          <div className="border-t border-amber-200 pt-4 mt-4">
-            <div className="flex justify-between items-center text-xl font-bold">
+          <div className="pt-4 mt-4 border-t border-amber-200">
+            <div className="flex items-center justify-between text-xl font-bold">
               <span>Total Pembayaran</span>
               <span className="text-amber-700">{formatRupiah(totalPrice)}</span>
             </div>
