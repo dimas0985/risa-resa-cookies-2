@@ -11,10 +11,10 @@ const Footer = () => {
             <div>
               <h3 className="font-semibold text-amber-100">Email</h3>
               <a
-                href="mailto:m.dimas.a1010@gmail.com"
+                href="mailto:risaresacookies@gmail.com"
                 className="text-stone-200 hover:text-amber-300"
               >
-                m.dimas.a1010@gmail.com
+                risaresacookies@gmail.com
               </a>
             </div>
           </div>
@@ -39,9 +39,17 @@ const Footer = () => {
             <div>
               <h3 className="font-semibold text-amber-100">Lokasi</h3>
               <p className="text-stone-200">
-                Jl. Kopo RT/RW 004/05 no.29 Kelurahan Ciganjur Kecamatan
-                Jagakarsa Jakarta Selatan
+                Jl. Meninjo No.157, RT.6/RW.5, Ciganjur, Kec. Jagakarsa,
+                Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12630
               </p>
+              <a
+                href="https://maps.google.com/?q=Jl.%20Meninjo%20No.157,%20RT.6%2FRW.5,%20Ciganjur,%20Kec.%20Jagakarsa,%20Kota%20Jakarta%20Selatan,%20Daerah%20Khusus%20Ibukota%20Jakarta%2012630"
+                target="_blank"
+                rel="noreferrer"
+                className="mt-2 inline-flex items-center rounded-full bg-amber-300 px-3 py-1 text-sm font-medium text-[#7B3F1D] transition hover:bg-amber-200"
+              >
+                Lihat Lokasi
+              </a>
             </div>
           </div>
         </div>
